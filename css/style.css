@@ -1,0 +1,582 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color: #5c6a88;
+}
+
+/* tipography */
+h1, h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+h1.titolo_sezione,
+h2.titolo_sezione {
+  margin-top: 80px;
+}
+
+/* utilities */
+.text-white {
+  color: white;
+}
+
+.text-trasparente {
+  color: #b3c7ff;
+}
+/* non funziona */
+.text-black {
+  color: black;
+}
+
+.lista_inline li {
+  display: inline-block;
+}
+
+.text-link {
+  color: #006aff;
+}
+
+.sfondo_grigio {
+  background-color: #f3f5f9;
+}
+.sfondo_blu {
+  background-color: #0033ae;
+}
+
+section {
+  padding-bottom: 70px;
+}
+
+section h1,
+section h2 {
+  margin-top: 40px;
+}
+
+.slide_cerchio i {
+  font-size: 15px;
+}
+
+
+
+/* HEADER */
+header .navbar {
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+header .navbar-header img {
+  width: 150px;
+  margin-top: 8px;
+  margin-right: 100px;
+}
+
+header .navbar-collapse .navbar-right li:last-child div{
+  border: solid 1px blue;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+
+/* MAIN */
+/* SEZIONE1: SIMPLEST */
+main .simplest {
+  background-image: url(../img/assets/bg-banner-home.jpg);
+  background-size: cover;
+}
+
+/* TITOLO SIMPLEST */
+main .simplest .row div:first-child h1 {
+  /* margin-top: 90px; */
+  font-size: 60px;
+  font-weight: 700;
+}
+
+main .simplest {
+  margin-bottom: 0;
+}
+
+main .simplest .row div:first-child p {
+  margin-bottom: 150px;
+}
+
+/* FORM */
+main .simplest .box-form {
+  margin-top: 70px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 8px;
+  padding-top: 20px;
+}
+
+main .simplest .box-form h2 {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+main .simplest .box-form h2:nth-child(2) {
+  color: #006aff;
+  margin-top: 3px;
+}
+
+
+
+.simplest .box-form form .btn-sign {
+  width: 420px;
+  /* border: solid 1px black; */
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.simplest .box-form form .btn-account {
+  background-color: #579aff;
+}
+
+.simplest .box-form form .btn-google {
+  border: solid 1px grey;
+}
+
+.simplest .box-form form .btn-account a {
+  color: white;
+}
+
+.simplest .box-form form .btn-google a {
+  color: #909090;
+}
+
+.simplest .box-form form .btn-google {
+  position: relative;
+}
+
+.simplest .box-form form .btn-google img {
+  width: 20px;
+  position: absolute;
+  left: 5px;
+}
+
+.simplest .box-form form .row .terms_service {
+  padding-top: 7px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.simplest .box-form form .row .terms_service a {
+  text-decoration: underline;
+}
+
+
+/* SEZIONE2: "partner" */
+
+main .partner .container div:first-child h2 {
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+main .partner .container .lista_partner img {
+  width: 200px;
+  vertical-align: middle;
+}
+
+.container .lista_partner ul li:nth-child(2) img {
+  width: 150px;
+}
+
+.container .lista_partner ul li:nth-child(3) img {
+  width: 150px;
+}
+
+.container .lista_partner img {
+  width: 150px;
+}
+
+.container .lista_partner ul li:last-child img {
+  width: 150px;
+  margin-top: 5px;
+}
+
+
+/* SEZIONE3: "servizi" */
+/* lista verticale di sx */
+main .servizi .container > .row:nth-child(2) .list_sx ul {
+  list-style-type: none;
+  border-left: solid 2px;
+  padding-left: 10px;
+}
+
+main .servizi .container > .row:nth-child(2) .list_sx ul li:not(.no-padding){
+  padding-top: 20px;
+}
+
+/* la parte di dx (tabella) a 4 box*/
+main .servizi .container > .row:nth-child(2) {
+  margin-top: 70px;
+}
+
+.servizi .container > .row:nth-child(2) .tabella_servizi .row:last-child {
+  margin-top: 30px;
+}
+
+
+/* SEZIONE4: "dev" */
+main .dev .slide .row {
+  margin-top: 80px;
+}
+main .dev .freccia {
+  position: relative;
+  top: 250px;
+  /* right: -30px; */
+  font-size: 50px;
+}
+main .dev .slide_foto {
+  /* background-image: url("./img/assets/create-droplet.jpg");
+  background-size: cover; */
+  width: 800px;
+}
+
+main .dev .slide_foto img {
+  width: 100%;
+}
+
+main .dev .slide_buttom h3 {
+  font-size: 19px;
+}
+
+/* vedi utility */
+/* .dev .slide_buttom .slide_cerchio i {
+  font-size: 15px;
+} */
+
+
+/* SEZIONE5: FEATURES */
+main .features h2 {
+  margin-bottom: 70px;
+}
+
+/* SEZIONE6: SERVIZI_BLU */
+
+.servizi_blu a {
+  color: #00d7d2;
+}
+
+.servizi_blu .tabella_servizi_blu {
+  font-size: 17px;
+  color: #7f8aa1;
+}
+
+.servizi_blu h2 {
+  margin-bottom: 50px;
+}
+
+/* .servizi_blu .tabella_servizi_blu .col-dx {
+  margin-top: 80px;
+} */
+
+
+
+/* SEZIONE7: DEV_TEAM */
+main .dev_team .slide_foto {
+  border: solid 1px grey;
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+main .dev_team .slide_foto img {
+  width: 50%;
+  margin-top: 70px;
+}
+
+main .dev_team .freccia {
+  position: relative;
+  top: 250px;
+  /* right: -30px; */
+  font-size: 50px;
+}
+main .dev_team .freccia:first-child {
+  position: relative;
+}
+main .dev_team .freccia:first-child i {
+  position: absolute;
+  right: 20px;
+}
+
+.dev_team .slide .slide_foto .founder {
+  margin-bottom: 50px;
+}
+
+/* .dev_team .btn_account {
+  margin-top: 20px;
+  width: 120px;
+} */
+
+
+/* sezione8: "start_now" */
+main .start_now {
+  /* height: 250px; */
+  padding-bottom: 100px;
+  position: relative;
+}
+main .start_now .btn_account {
+  background-color: white;
+  width: 280px;
+  position: absolute;
+  /* left: 43%; */
+  left: 50%;
+  padding: 15px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+
+
+.start_now h2 {
+  font-size: 50px;
+}
+
+/* FOOTER */
+footer {
+  font-size: 19px;
+  background-color: #031c4e;
+}
+
+footer .row .digital-ocean  img {
+  margin-top: 60px;
+}
+
+footer .digital-ocean ul li i {
+  font-size: 30px;
+  color: #7f8aa1;
+}
+
+footer .col_lista ul li a {
+  color: #7f8aa1;
+}
+
+footer .col_lista h3 {
+  color: white;
+  margin-top: 65px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  padding-bottom: 10px;
+}
+
+footer .col_lista {
+  padding-right:
+}
+
+/* RESPONSIVE */
+@media screen  and (max-width: 991px) {
+    /* Mostra hamburger */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    /* Nascondi contenitore menu */
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+
+
+
+
+/* RESPONSIVE XS */
+@media screen and (max-width: 767px) {
+
+  /* GENERAL */
+  body {
+    font-size: 15px;
+  }
+
+  /* MAIN  */
+  /* SEZIONE1: "simplest" XS */
+  main .simplest .row div:first-child h1 {
+    font-size: 30px;
+  }
+
+  main .simplest .row div:first-child p {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  /* box form */
+  main .simplest .row .box-form {
+    width: 93%;
+    margin-top: 0px;
+    padding-top: 0;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  main .simplest .row .box-form .terms_service {
+    font-size: 10px;
+  }
+
+  main .simplest .row .box-form .btn-sign {
+    width: 90%;
+    font-size: 17px;
+  }
+
+  main .simplest .row .box-form .text-black {
+    margin-top: 30px;
+  }
+
+  main .simplest .row .box-form  h2 {
+    font-size: 18px;
+  }
+
+  /* SEZIONE2: "partner" XS */
+
+  /* QUI, css lista partner gestita: una ROW con 6 colonne div */
+  /* main .partner .lista_partner .row div {
+    width: calc((100% / 6)- 15px);
+  } */
+
+  main .partner .lista_partner .lista_inline {
+    width: calc((100% / 6)*2);
+  }
+
+  /* SEZIONE3: "SERVIZI" XS */
+  main .servizi h2 {
+    font-size: 23px;
+  }
+
+  .servizi .tabella_servizi .box_servizi:first-child img {
+    margin-top: 20px;
+  }
+
+  .servizi .tabella_servizi .box_servizi h3 {
+    font-size: 15px;
+  }
+
+  .servizi .container > .row:nth-child(2) .tabella_servizi .row:last-child {
+    margin-top: 0;
+  }
+
+  /* SEZIONE4: "DEV" XS*/
+  main .dev h2 {
+    font-size: 23px;
+  }
+
+  main .dev .slide_buttom h3 {
+    font-size: 13px;
+  }
+
+  main .dev .slide .freccia i {
+    width: 0;
+  }
+
+  /* main .dev .slide_foto {
+    position: relative;
+  }
+  */
+  main .dev .slide .slide_foto img {
+    width: 400px;
+    position: relative;
+    left: -185px;
+  }
+
+  main .dev .slide_buttom .slide_cerchio {
+    margin-top: 50px;
+  }
+
+
+
+  /* SEZIONE5: FEATURES xs */
+  main .features h2 {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  main .features h3 {
+    font-size: 17px;
+  }
+  main .features .box_features:first-child{
+    margin-top: 0px;
+  }
+
+  main .features .box_features:nth-child(2),
+  main .features .box_features:nth-child(3){
+    padding-top: 40px;
+  }
+
+  /* SEZIONE6: SERVIZI_BLU XS */
+  main .servizi_blu h2 {
+    font-size: 20px;
+  }
+  main .servizi_blu .tabella_servizi_blu {
+    font-size: 11px;
+  }
+
+  main .servizi_blu .tabella_servizi_blu .col-dx {
+    margin-top: 50px;
+  }
+
+  main .servizi_blu .tabella_servizi_blu .citta,
+  main .servizi_blu .tabella_servizi_blu .test {
+    padding: 0;
+  }
+
+  /* SEZIONE7: "DEV_TEAM XS" */
+  main .dev_team h2 {
+    font-size: 23px;
+  }
+
+  /* SEZIONE8: start_now  xs*/
+  main .start_now {
+    position: relative;
+  }
+
+
+  main .start_now h2 {
+    font-size: 23px;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 15px;
+  }
+  footer h3 {
+    font-size: 17px;
+  }
+  footer .lista_inline li {
+    padding-right: 10px;
+  }
+}
+
+
+
+
+/* RESPONSIVE TABLET >= 768PX  SM */
+@media screen and (min-width: 768px) {
+
+  /* GENERAL */
+  body {
+    font-size: 17px;
+  }
+
+  /* SEZIONE1: SIMPLEST SM */
+  main .simplest .row .box-form .btn-sign {
+    width: 90%;
+  }
+
+  main .simplest .row div:first-child h1{
+    font-size: 34px;
+  }
+
+  /* SEZIONE3: "SERVIZI" SM */
+
+  /* SEZIONE4: "DEV" SM */
+
+  /* SEZIONE5: "FEATURES" SM */
+
+}
